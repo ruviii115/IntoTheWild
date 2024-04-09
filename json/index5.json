@@ -1,0 +1,13 @@
+{
+    "animal":{
+        "topic1":"Indigenous Animals in Sri Lanka.",
+        "para1":"Sri Lanka, being an island surrounded by Indian Ocean is the major reason behind the existence of higher amount of endemic animal species which is also one of the highest rates of biological endemism in the world.",
+        "para2":"Sri Lanka is home to about 21 species of endemic mammals, 26 species of birds, 113 species of reptiles, 112 species of amphibians, 50 species of fish and numerous insect species including 24 species of endemic butterflies such as Mycalesis rama and Elymnias singhala.",
+        "SubTopic1":"Some indigenous animals in Sri Lanka:"
+    },
+    "three":{
+        "topic2":"Top 2 Wildlife Locations To see Indigenous Animals in Sri Lanka",
+        "img1":"images/34Yala.png",
+        "img2":"images/33Wilpaththu.png"
+    }
+}

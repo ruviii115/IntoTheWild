@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="images/0icon.ico"><!-- icon in the head -->
+    <link rel="stylesheet" href="style1.css"><!-- linking to CSS file -->
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+            <a href="index.html"><img src="images/1Logo.png" alt="Logo" class="logo"></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" /><!-- menu button checkbox-->
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <!-- to create the hamburger menu -->
+            <ul class="dropdown-menu"><!-- nav bar -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index2.html">Sri Lankan Wildlife</a></li>
+                <li><a href="index3.html">Department of Wildlife Conservation</a></li>
+                <li><a href="index4.html">Sri Lankan Leopard</a></li>
+                <li><a href="index5.html">Animals in Sri Lanka</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="one">
+        <!-- main image -->
+        <br><br><br><br>
+        <nav class="buttons">
+            <div class="buttondiv" id="loginbtn"></div>
+            <div class="buttondiv" id="btndiv">
+                <button type="button" class="button2" id="btn2">Edit content</button>
+            </div>
+            <div class="buttondiv">
+                <a href="dashboard.html"><button type="button" class="button3" id="btn3">Dashboard</button></a>
+            </div>
+        </nav>
+    </section>
+
+    <section class="two">
+        <h1 id="topic1"></h1><br>
+        <p id="para1"></p><br>
+        <p id="para2"></p>
+        <ul id="two_list"></ul>
+        <p id="para3"></p><br>
+        <p id="para4"> </p><br>
+
+        <div class="container">
+            <ul class="image-gallery">
+                <li><img src="images/3sec2.png" alt="" /></li>
+                <li><img src="images/4sec2.png" alt="" /></li>
+                <li><img src="images/5sec2.png" alt="" /></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="three">
+        <h1 id="topic2"></h1><br>
+        <div class="grid-container">
+
+            <div class="grid-item">
+                <div id="img1"></div>
+                <h3 id="SubTopic1"></h3><br>
+                <p id="SubPara1"></p>
+            </div>
+
+            <div class="grid-item">
+                <div id="img2"></div>
+                <h3 id="SubTopic2"></h3><br>
+                <p id="SubPara2"></p>
+            </div>
+
+            <div class="grid-item">
+                <div id="img3"></div>
+                <h3 id="SubTopic3"></h3><br>
+                <p id="SubPara3"></p>
+            </div>
+
+        </div>
+        <div class="buttondiv">
+            <a href="index2.html"><button type="button" class="button">View More</button></a>
+        </div>
+    </section>
+
+    <section class="four">
+        <div class="grid-container3">
+            <div class="grid-item">
+                <div id="img4"></div>
+            </div>
+            <div class="grid-item">
+                <h2 id="topic3"></h2><br>
+                <p id="para5"></p><br>
+                <p><a href="index4.html">Read more</a> facts about The Sri Lankan Leopard:</p>
+                <ol id="four_list"></ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <!-- news letter subscription -->
+        <h3 class="nl_heading">Join the newsletter!</h1>
+        <p class="nl_para">Subscribe to the "Into The Wild: A Journey into Sri Lankan Wildlife" newsletter <br> for more updates and news!</p>
+        <form class="nl_form" id="nlForm">
+            <input class="nl_input" type="email" id="email" name="email" placeholder="email address" required><br>
+            <button class="nl_button" type="submit">Subscribe</button>
+        </form>
+
+        <!-- copyrights -->
+        <p class="copyr">&copy; 2024 IntoTheWoods, All rights reserved</p>
+    </footer>
+    <script src="script/index.js" defer></script> <!--linking to js file-->
+</body>
+
+</html>

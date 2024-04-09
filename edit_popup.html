@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Content</title>
+    <link rel="stylesheet" href="styledashboard.css"><!-- linking to CSS file -->
+</head>
+
+<body>
+    <div class="edit">
+        <div>
+            <label for="page" class="selPage">Select Page: </label>
+            <select name="page" id="page" class="pageSelector">
+                <option value="home">Home Page</option>
+                <option value="wildlife">Sri Lankan Wildlife</option>
+                <option value="department">Department of Wildlife Conservation</option>
+                <option value="leopard">Sri Lankan Leopard</option>
+                <option value="animal">Animals in Sri Lanka</option>
+                <option value="yala">Yala National Park</option>
+                <option value="wilpattu">wilpattu National Park</option>
+            </select>
+            <button type="button" id="selectPage" class="selectbtn">Select Page</button>
+        </div>
+        
+        <div>
+            <textarea name="" class="textarea" id="textarea" cols="100" rows="20"></textarea>
+        </div>
+
+        <div>
+            <button type="button" id="editPage" class="editbtn">Edit</button>
+        </div>
+    </div>
+    <script src="script/edit_popup.js" defer></script> <!--linking to js file-->
+</body>
+
+</html>

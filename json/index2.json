@@ -1,0 +1,38 @@
+{
+    "two":{
+        "topic1":"Must Visit Wildlife Locations in Sri Lanka",
+
+        "SubTopic1":"Udawalawe National Park",
+        "img1":"images/9Loc_udawalawe.png",
+        "para1_1":"Framed by the soaring Central Highlands, Udawalawe is one of the best places in the world to see wild elephants. Herds are often seen roaming in numbers of up to 100, with other mammals in the park including water buffalo, wild boar, sloth bears, spotted deer and the endemic toque macaque. The Park is home to a population of over 400 elephants and the probability of seeing them while on safari is almost always guaranteed.",
+        "para1_2":"The Walawe Reservoir is also encompassed within the Park, spanning over 3,000 hectares; it's a favourite elephant hangout during times of water scarcity. Over 180 species of birds, the mugger crocodile and sightings of more reptilian, plant life and other mammals too, are abundant spectacles at the Park. Udawalawa can be accessed through the city of Ratnapura following the Pellmadula-Embilipitiya Road and the Park can be visited throughout the year.",
+
+        "SubTopic2":"Minneriya National Park",
+        "img2":"images/10Loc_minneriya.png",
+        "para2_1":"Minneriya National Park, situated in Sri Lanka's cultural triangle, is a biodiversity hotspot and a haven for wildlife enthusiasts. Renowned for hosting the 'Gathering,' one of the world's largest gatherings of Asian elephants. As part of Sri Lanka's elephant corridor, large numbers of elephants migrate across the country to Minneriya every year. This is believed to be the highest number of elephants in one place.",
+        "para2_2":"With just over 30 square miles, Minneriya National Park is a thrill-packed alternative to the more vast expanses of other wildlife sanctuaries. Made of grasslands, thick scrub, and the wildlife that roam their particular territory, the Park is fed by its giant reservoir which is also its life-blood. A diversity of animals roams within the vicinity of the reservoir, as food and water grow scarce elsewhere in the Park. ",
+
+        "SubTopic3":"Sinharaja Forest Reserve",
+        "img3":"images/11Loc_sinharaja.png",
+        "para3_1":"Sinharaja Forest, a UNESCO World Heritage Site in Sri Lanka, is a pristine tropical rainforest teeming with biodiversity. Home to rare species like the Sri Lankan leopard and endemic birds, it showcases a kaleidoscope of flora.",
+        "para3_2":"Containing Sri Lanka's last area of primary tropical rainforest, it's home to over 50% of the country's endemic species of mammals and butterflies, as well as many types of reptile, insect and rare amphibians.",
+
+        "SubTopic4":"Bundala National Park",
+        "img4":"images/12Loc_bundala.png",
+        "para4_1":"Known for its incredible spectacles of migratory birds, Bundala National Park is a great friend to bird enthusiasts from the world over. Almost 200 bird species have been recorded here, including ibis, pelicans and huge flocks of greater flamingos. Visitors can also spot crocodiles, elephants, turtles and a variety of other fauna. Home to scrub jungle, wetlands, lagoons, salt pans, sand dunes and a long stretch of coast, Bundala National Park's terrain is blessed with many faces of landscape in unison with unlimited yet protected fauna.",
+        "para4_2":"While glimpses of elephants are not as common as the crocodiles (estuarine as well as saltwater), much anticipated are sightings of deer, langurs, the tusky (not to mention a tad touchy) wild boar, and even the spotted fishing cat. Although Bundala National Park is a fairly small area of sanctuary, nearly 30 square miles, its diversity of species is rich and therefore can be a quick safari trip if you want to make the most of the island's wilderness in a short space of time.",
+
+        "SubTopic5":"Maduru Oya",
+        "img5":"images/13Loc_maduru.png",
+        "para5_1":"Approximately 265 kilometres from Colombo, lies a treasure by the name of 'Maduru Oya'. Established as a National Park of Sri Lanka under the Mahaweli Development project, the park provides a sanctuary to wildlife. However, that is not all. This destination posses a rich history in engineering and a lot of adventure with an army camp being situated there",
+
+        "SubTopic6":"Horton Plains National Park",
+        "img6":"images/14Loc_horton.png",
+        "para6_1":"Set over 2,000 metres above sea level, the Horton Plains feel a world apart from the rest of Sri Lanka. Large areas of the park are covered in pristine cloud forest, with dramatically plunging cliffs at its southern boundary.",
+        "para6_2":"The Horton Plains are the headwaters of three major Sri Lankan rivers, the Mahaweli, Kelani, and Walawe. The famous Horton Plains is a nature reserve characterized by a beautiful landscape of rolling hills, forests, and grassland. The highest plateau in the island, spanning approximately 10,000 hectares, is home to 24 species of mammal - such as elk, deer, giant squirrel, wild boar, wild hare, porcupine, and leopard."
+    },
+
+    "three":{
+        "topic2":"Wildlife That Can Be Seen In These Areas"
+    }
+}

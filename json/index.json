@@ -1,0 +1,40 @@
+{
+    "two":{
+        "topic1":"Into The Wild: A Journey into Sri Lankan Wildlife ",
+        "para1":"Sri Lanka, an island nation located in South Asia, boasts a rich and diverse array of wildlife, making it a fascinating destination for nature enthusiasts and wildlife lovers. The country's diverse ecosystems, ranging from lush rainforests and dry plains to mountainous regions, provide habitats for a wide variety of flora and fauna.",
+        "para2":"Sri Lanka is renowned for its iconic inhabitants, including:",
+        "two_list":[
+            "The majestic Asian elephant",
+            "Elusive leopard",
+            "vibrant bird species"
+        ],
+        "para3": "Protected areas such as Yala National Park and Wilpattu National Park are vital sanctuaries for these creatures, offering visitors a chance to witness the wonders of the wild in their natural habitats. With a vibrant mix of biodiversity, Sri Lanka's wildlife is a testament to the nation's commitment to conservation and its recognition of the intrinsic value of its natural heritage.",
+        "para4":"From the playful antics of monkeys to the graceful dance of peacocks, Sri Lanka's wildlife weaves a captivating narrative that unfolds against the backdrop of a stunning and varied landscape."
+    },
+    "three":{
+        "topic2":"Wildlife Locations",
+
+        "img1":"images/5udawalawe1.png",
+        "SubTopic1":"Udawalawe National Park",
+        "SubPara1":"Udawalawe is one of the best places in the world to see wild elephants and other mammals including water buffalo, wild boar, sloth bears, spotted deer and the endemic toque macaque...",
+       
+        "img2":"images/6minneriya1.png",
+        "SubTopic2":"Minneriya National Park",
+        "SubPara2":"Minneriya National Park, situated in Sri Lanka's cultural triangle, is a biodiversity hotspot and a haven for wildlife enthusiasts. Renowned for hosting the 'Gathering,' one of the world's largest gatherings of Asian elephants...",
+        
+        "img3":"images/7sinharaja1.png",
+        "SubTopic3":"Sinharaja Forest Reserve",
+        "SubPara3":"Sinharaja Forest, a UNESCO World Heritage Site in Sri Lanka, is a pristine tropical rainforest teeming with biodiversity. Home to rare species like the Sri Lankan leopard and endemic birds, it showcases a kaleidoscope of flora..."
+    },
+    "four":{
+        "img4":"images/8Leopard.png",
+        "topic3":"The Sri Lankan Leopard",
+        "para5":"The Sri Lankan leopard is a leopard subspecies native to Sri Lanka. The Leopard is the most secretive and elusive of the large carnivores, and also the shrewdest. Pound for pound, it is the strongest climber of the larger cats and is capable of killing prey far larger than itself.",
+        "four_list":[
+            "Venues where the Sri Lankan Leopard is found",
+            "Threats to The Sri Lankan Leopard",
+            "Consequences of these threats",
+            "Mechanisms taken to reduce these threats"
+        ]
+    }
+}

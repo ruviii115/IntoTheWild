@@ -1,0 +1,58 @@
+{
+    "two":{
+        "topic1":"The Sri Lankan leopard",
+        "para1":"The Sri Lankan leopard (Panthera pardus kotiya) is a leopard subspecies native to Sri Lanka. It was first described in 1956 by Sri Lankan zoologist Paules Edward Pieris Deraniyagala. The Leopard is the most secretive and elusive of the large carnivores, and also the shrewdest. Pound for pound, it is the strongest climber of the larger cats and is capable of killing prey far larger than itself.",
+        "para2":"The Sri Lankan leopard is still found in all habitats throughout the island in both protected and unprotected areas.In Sri Lanka's central hills, leopards have been recorded in forest patches, tea estates, grasslands, home gardens, and pine and eucalyptus plantations. The Sri Lankan Leopard is an endangered species with a population estimated to be around 1,000 at present."
+    },
+    "three":{
+        "topic2":"Venues where the Sri Lankan Leopard is found",
+
+        "img1":"images/28YalaLeopard.png",
+        "SubTopic1":"Yala National Park",
+        "SubPara1":"To see the Sri Lankan Leopard, the top spot has to go to Yala National Park, the crown jewel of safari parks in the country. This is truly the land of the leopard, with some of the highest if not the highest densities of these amazing predators in the world. The sightings of a beautiful cat walking across the open plains or atop a rocky outcrop is a signature sight in Yala National Park.",
+
+        "img2":"images/29WilpaththuLeopard.png",
+        "SubTopic2":"Wilpaththu National Park",
+        "SubPara2":"The land of lakes, Wilpattu is located on the North-Western end of the island. This is Sri Lanka's largest national park and is quite a contrast to the landscape of Yala. Wilpattu is denser with dark forests being the dominant landscape, along with few open spaces which are usually consisting of natural lakes known as Villus.",
+
+        "img3":"images/30HortonLeopard.png",
+        "SubTopic3":"Horton Plains National Park",
+        "SubPara3":"The misty highlands of Sri Lanka is hardly a place one would imagine encountering a leopard. But despite this, historically, the highlands are where most of the island forests are covered. One of the last remaining highland wilderness refuges is Horton Plains. Located over 2500 meters above sea level, this montane wilderness is set atop a high plateau and is one of Mother Nature's most spectacular wonders."
+    },
+    "four":{
+        "topic3":"Unveiling the Invisible: Threats to The Sri Lankan Leopard",
+
+        "img4":"",
+        "SubTopic4":"Increasing habitat loss and fragmentation",
+        "para4_1":"The survival of the Sri Lankan leopard is primarily threatened by increasing habitat loss and fragmentation. Rapid deforestation and habitat fragmentation shrink living spaces for Sri Lankan leopards, reducing prey availability and increasing human-wildlife conflicts.",
+        "para4_2":"Consequences of the threat:",
+        "threat1_List1":[
+            "Population Decline",
+            "Increased Human-Wildlife Conflict",
+            "Disruption of Ecological Balance"
+        ],
+        "para4_3":"Mechanisms taken to reduce the threat:",
+        "threat1_List2":[
+            "Habitat Conservation",
+            "Anti-Poaching Measures and Law Enforcement",
+            "Research and Monitoring",
+            "International Collaboration"
+        ],
+
+        "SubTopic5":"Increasing risk of human-induced mortality",
+        "para5_1":"Leopards are killed by people either accidentally in wire snares set for other species, or as retaliation after livestock depredation. They are also occasionally shot. Since 2010, over 90 leopards are known to have been killed by people in Sri Lanka.",
+        "para5_2":"Consequences of the threat:",
+        "threat2_List1":[
+            "Prey Scarcity",
+            "Genetic Isolation",
+            "Disruption of Prey Base"
+        ],
+        "para5_3":"Mechanisms taken to reduce the threat:",
+        "threat2_List2":[
+            "Incorporating wildlife corridors",
+            "Protected Area Expansion and Management",
+            "Reforestation and Habitat Restoration"
+        ],
+        "img5":""
+    }
+}

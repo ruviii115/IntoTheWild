@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #ddd3b0;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    font-size: 17px;
+    text-align: justify;
+}
+
+/*navigation and menu when hamburger is clicked*/
+.header {
+    background-color: #EDE9DD;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.header li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #544013;
+    background-color: #998659;
+    border-bottom: 1px solid #88764d;
+}
+
+.header li a:hover {
+    background-color: #544013;
+    opacity: 75%;
+    color: #EDE9DD;
+}
+
+.header .logo {
+    display: block;
+    float: left;
+
+    width: 230px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header .dropdown-menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+
+/* menu icon (lable) - hamburger */
+.header .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 20px;
+    position: relative;
+    user-select: none;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+
+/*hamburger lines (span)*/
+.header .menu-icon .nav-icon {
+    background: #544013;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+.header .menu-icon .nav-icon:before,
+.header .menu-icon .nav-icon:after {
+    background: #544013;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.header .menu-icon .nav-icon:before {
+    top: 5px;
+}
+
+.header .menu-icon .nav-icon:after {
+    top: -5px;
+}
+
+
+/* menu btn (check box)*/
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn:checked~.dropdown-menu {
+    max-height: 320px;
+}
+
+.header .menu-btn:checked~.menu-icon .nav-icon {
+    background: transparent;
+}
+
+.header .menu-btn:checked~.menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.header .menu-btn:checked~.menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+
+/* When the screen is more than 1184px, hamburger menu dissapears and normal navigation is available*/
+@media (min-width: 1184px) {
+    .header .logo {
+        display: inline-block;
+    }
+
+    .header {
+        height: 100px;
+    }
+
+    .header li {
+        display: inline-block;
+    }
+
+    .header li a {
+        background-color: #EDE9DD;
+        padding: 20px 16px;
+        text-decoration: none;
+        margin-right: 0px;
+        line-height: 60px;
+        border-bottom: 0px;
+    }
+
+    .header .dropdown-menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    /*hamburger menu - display --> none*/
+    .header .menu-icon {
+        display: none;
+    }
+}
+
+
+/*body*/
+
+.one {
+    background-image: url("images/35Yala.png");
+    height: 70%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*grid-containers*/
+.grid-container1 {
+    /*section 1*/
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-container {
+    /*section 2*/
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+.grid-container2 {
+    /*section 3*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-container h2,
+.grid-container p {
+    text-align: center;
+}
+
+
+/*grid-items*/
+.grid-item1,
+.grid-item {
+    padding: 20px;
+    background-color:#ddd3b0 ;
+    text-align: center;
+}
+
+.grid-item1 img {
+    /*img_circle*/
+    width: 320px;
+    height: 320px;
+    border-radius: 160px;
+}
+
+.grid-item img {
+    border-radius: 5px;
+}
+
+
+/*footer*/
+footer {
+    background-color: #EDE9DD;
+    color: #544013;
+    padding: 10px;
+    width: 100%;
+    height: 280px;
+}
+
+.copyr ,.anchor{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copyr{
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+
+/* Media Query for Small Screens */
+@media only screen and (max-width:1100px) {
+    .grid-container2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:1273px) {
+    .grid-container1 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    footer{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width:610px) {
+    .grid-item1 img {
+        width: 260px;
+        height: 260px;
+        border-radius: 130px;
+    }
+
+    .grid-item img {
+        width: 270px;
+    }
+
+    .grid-container p {
+        text-align: justify;
+    }
+}
+
+
+/*Animations*/
+.anim_img {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: 50%;
+        width: 150%;
+    }
+
+    100% {
+        margin-left: 0%;
+    }
+}
+
+
+/*sub-navigation*/
+.one {
+    padding: 0;
+}
+
+.header2 {
+    background-color: #544013;
+    width: 100%;
+    height: 57px;
+    opacity: 75%;
+    position: fixed;
+}
+
+.header2 ul {
+    list-style: none;
+}
+
+.header2 li {
+    display: block;
+    float: left;
+}
+
+.header2 li a {
+    text-decoration: none;
+    line-height: 55px;
+    padding: 1px 16px;
+    display: block;
+    font-size: 15px;
+    color: #EDE9DD;
+}
+
+.header2 li a:hover {
+    background-color: #998659;
+    opacity: 75%;
+    color: #EDE9DD;
+}
+
+@media only screen and (max-width:383px) {
+    .header2{
+        height: 114px;
+    }
+}
+
+/*logo animation*/
+.header .logo{
+    transition: transform 0.3s ease-in-out;
+}
+.header .logo:hover {
+    transform: scale(1.05); 
+}
+
+
+/*Newsletter subscriptions*/
+.nl_heading,
+.nl_para,
+.nl_form,
+.nl_input,
+.nl_button{
+    text-align: center;
+    margin-top: 10px;
+}
+.nl_input{
+    border: none;
+    padding: 10px 40px;
+}
+.nl_button{
+    border: none;
+    color: white;
+    padding: 7px 84px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color:#503d10;
+    transition-duration: 0.4s;
+}
+.nl_button:hover {
+    background-color:#998659;
+}
+
+/* login and edit buttons */
+.buttons {
+    width: 100%;
+    height: 57px;
+    opacity: 75%;
+    position: fixed;
+    margin-right: 50px;
+}
+
+.buttons .buttondiv .button1{
+    display: block;
+    float: right;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.buttons .buttondiv .button2{
+    display: block;
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.buttons .buttondiv:hover {
+    background-color: #503d10;
+    opacity: 75%;
+    color: #EDE9DD;
+}
+
+/*dashboard button*/
+.buttons .buttondiv .button3{
+    display: block;
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+}
